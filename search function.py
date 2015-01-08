@@ -1,6 +1,7 @@
 
 
 
+
 def search(searchList,numbers):
     found = False
     counter = 0
@@ -9,14 +10,14 @@ def search(searchList,numbers):
             found = True
         else:
             counter = counter + 1
-        return found
+    return found
             
                     
 
 #Main Program   
 numbers = ["one","two","three","four","five"]
 searchList = input("Search: ")
-searchList = str.lower(searchList)
+searchList= searchList.lower()
 found = search(searchList,numbers)
 
 
